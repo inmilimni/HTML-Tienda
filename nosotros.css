@@ -1,0 +1,50 @@
+.div-nosotros{
+text-align: center;
+color: var(--fluorescent-cyan);
+font-weight: bold;
+width: 100%;
+}
+.div-cont-principal{
+display: flex;
+flex-direction: row;
+margin: 1rem 3rem;
+}
+.div-texto-principal{
+display:flex;
+flex-direction: column;
+width: 50%;
+}
+.div-imagen-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.imagen-principal{
+    width: 100%;
+}
+.div-pq-comprar{
+    text-align: center;
+    color: var(--fluorescent-cyan);
+    font-weight: bold;
+    width: 100%;
+}
+.div__contenedorprincipal{
+    display: flex;
+    flex-direction: row;
+}
+.div-icono-h4-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div-iconono{
+
+}
+.div-h4{
+
+}
+.div-mini-text{
+
+}
