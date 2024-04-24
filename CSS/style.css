@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Staatliches';
+    src: url('../fonts/Staatliches-Regular.ttf') format('truetype');
+}
+:root{
+    --neon-blue: #3660F7ff;
+    --process-cyan: #17B2E3ff;
+    --fluorescent-cyan: #04E2E2ff;
+    --white: #FFFFFF;
+    --fuent-principal: 'Staatliches', sans-serif;
+}
+html{
+    box-sizing: border-box;
+
+}
+body{
+    background-color: var(--process-cyan);
+    margin: 0;
+    font-family: var(--fuent-principal);
+
+}
+h1{
+    font-size: 1.5rem;
+    color: var(--fluorescent-cyan);
+    margin: 0;
+    text-align: center;
+}
+h2{
+    font-size:1.5rem;
+    color: var(--fluorescent-cyan);
+    margin: 0;
+}   
+h3{
+    font-size: 1rem;
+    color: var(--fluorescent-cyan);
+    margin: 0;
+}
+p{
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: small;
+    color: var(--white);
+}
+img{
+    max-width: 100%;
+}
+@media(max-width:768px){
+    img{
+        max-width: 265px;
+        max-height: 180px;
+    }
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navnav{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--neon-blue);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    height: 3rem;
+}
+.items-menu{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+.items-menu:hover{
+    color: var(--fluorescent-cyan);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+}
+footer{
+    background-color: var(--neon-blue);
+    color: var(--white);
+    text-align: center;
+    font-size: 2.2rem;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:768px){
+    footer{
+        font-size: 1rem;
+    }
+}

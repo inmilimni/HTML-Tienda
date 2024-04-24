@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Staatliches';
+    src: url('../fonts/Staatliches-Regular.ttf') format('truetype');
+}
+:root{
+    --neon-blue: #3660F7ff;
+    --process-cyan: #17B2E3ff;
+    --fluorescent-cyan: #04E2E2ff;
+    --white: #FFFFFF;
+    --fuent-principal: 'Staatliches', sans-serif;
+}
+.div-nosotros{
+    text-align: center;
+    color: var(--fluorescent-cyan);
+    font-weight: bold;
+    width: 100%;
+}
+.div-cont-principal{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.div-texto-principal{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.div-texto-principal--centrar{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.div-imagen-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.imagen-principal{
+    width: 100%;
+}
+.div-pq-comprar{
+    text-align: center;
+    color: var(--fluorescent-cyan);
+    font-weight: bold;
+    width: 100%;
+}
+.div__contenedorprincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 2rem;
+    
+}
+.div-icono-h2-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+/*.div-iconono{
+    
+}
+.div-h2{
+  
+
+}*/
+.div-mini-text{
+    text-align: center;
+   
+}
+@media(max-width:898px){
+    .div__contenedorprincipal{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 2rem;
+    }
+}
+@media(max-width:450px){
+    .div__contenedorprincipal{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 2rem;
+    }
+    .texto-principal{
+        text-align: center;
+    }
+}
+@media(min-width:898px){
+    .texto-principal{
+        font-size: large;
+        text-align: center;
+    }
+    .div-cont-principal{
+        display: flex;
+        flex-direction: row;
+        margin: 1rem 2rem;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .div-texto-principal{
+        width: 50%;
+    }
+    .div-imagen-principal{
+        width: 50%;
+    }
+}
