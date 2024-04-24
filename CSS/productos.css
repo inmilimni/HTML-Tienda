@@ -30,7 +30,7 @@
 }
 .imagen-producto{
     min-width: 250px;
-    min-height: 400px;
+    min-height: 100%;
 }
 .div--texto--producto{
     width: 100%;
